@@ -1,0 +1,130 @@
+*{
+  font-size: 25px;
+}
+body{
+  height: 100vh;
+}
+.div_container{
+  height: 100vh;
+}
+.div_container-fijado{
+  background: #000;
+  width: 100vw;
+  height: 70px;
+  position: fixed;
+  z-index: 300;
+}
+.div_container-header{
+  display: flex;
+  padding-top: 70px;
+  height: 570px;
+}
+.div_seccion-header{
+  width: 100vw;
+  height: 30px;
+  z-index: 200;
+}
+.div_header{
+  background: transparent;
+  width: 70%;
+  margin: 0 0 0 auto;
+}
+nav{
+  height: 40px;
+  background: #ffffff8a;
+}
+ul{
+  display: flex;
+}
+li {
+  display: inline;
+  position: relative;
+  flex-grow: 4;
+  top: 3px;
+  text-align: center;
+}
+a {
+  color: #000;
+  text-decoration: none;
+  font-family: 'Syncopate', sans-serif;
+  font-size: 15px;
+}
+
+.div_seccion-fondoimg{
+  display: flex;
+}
+.div_seccion-img {
+  object-fit: cover;
+  width: 100vw;
+  height: 500px;
+  z-index: 1;
+  position: absolute;
+  left: 0;
+}
+.div_seccion-logo {
+  background: #808080b0;
+  width: 30%;
+  height: 500px;
+  z-index: 100;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.div_seccion-logo img{
+  object-fit: contain;
+  width: 200px;
+}
+.div_seccion-article{
+
+}
+hr{
+  width: 95%;
+  background: #000;
+  margin: auto;
+  margin-top: 30px;
+}
+.div_article-cajas{
+  width: auto;
+  height: auto;
+  padding: 30px 10% 10px 10%;
+}
+.div_article-caja1{
+  width: 49%;
+  height: auto;
+  display: inline-block;
+}
+.div_article-caja1 h2 {
+  padding: 10px;
+  background: #290260;
+  text-align: center;
+  width: 200px;
+  margin: auto;
+  color: #fff;
+}
+.div_article-caja1 p {
+  padding: 10px;
+  margin: 10px;
+  text-align: justify;
+}
+.div_article-caja2{
+  width: 49%;
+  height: auto;
+  display: inline-block;
+}
+.div_article-caja2 h2 {
+  padding: 10px;
+  background: #290260;
+  text-align: center;
+  width: 200px;
+  margin: auto;
+  color: #fff;
+}
+.div_article-caja2 p {
+  padding: 10px;
+  margin: 10px;
+  text-align: justify;
+}
+P {
+  font-family: 'Forum', cursive;
+}
